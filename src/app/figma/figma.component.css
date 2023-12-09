@@ -1,0 +1,55 @@
+.mr{
+    padding: 50px;
+    background-color:rgb(14, 151, 206);
+}
+
+.di{
+    background-color: rgb(232, 224, 224);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    /* border-radius: 8px; */
+    border-radius: 5px;
+    
+    height: 60px;
+}
+
+.bo{
+    font-size: 30px;
+    background-color: #0a53f1;
+    color: white;
+}
+.Mat-icon {
+    position: absolute;
+    color: #0a53f1;
+    font-size: 30px;
+    text-align: center;
+    top: 150px;
+    line-height: 25px;
+    margin-left: 14rem; /* Adjust the line-height to center vertically */
+  }
+
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+}
+
+
+
+.full{
+
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: red;
+}

@@ -1,0 +1,25 @@
+<div class="main-container" *ngIf="showDialog">
+
+    <label class="font-size" style="margin-right: 250px; position: relative; top: 38px;">No of adult</label>
+    <div class="inner-div">
+        <mat-icon class="Mat-icon">supervisor_account</mat-icon>
+        <mat-icon class="Mat-icon" (click)="passengerService.decrementAdults()">remove</mat-icon>
+        <div style="position: absolute;" class="ai" id="counter">{{ adults$ | async }}</div>
+        <span>
+            <mat-icon class="Mat-icon" (click)="passengerService.incrementAdults()">add</mat-icon>
+        </span>
+
+    </div>
+    <label class="font-size">No of child</label>
+    <div class="inner-div" style="top: 12px; cursor: pointer;">
+        <mat-icon class="Mat-icon">supervisor_account</mat-icon>
+        <mat-icon class="Mat-icon" (click)="passengerService.decrementChildren()">remove</mat-icon>
+        <div style="position: absolute;" class="ai" id="counter">{{ children$ | async }}</div>
+        <mat-icon class="Mat-icon" style="cursor: pointer;" (click)="passengerService.incrementChildren()">add</mat-icon>
+    </div>
+    <div class="button-container">
+        <button (click)="logPassenger()">Done</button>
+    </div>
+
+
+</div>

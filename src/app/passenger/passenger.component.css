@@ -1,0 +1,79 @@
+.main-container {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    height: 250px;
+    border: 1px solid rosybrown;
+    margin-left: 21rem;
+    border-radius: 5px;
+    
+    /* border-top: 0px; */
+  }
+
+ 
+  .inner-div {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+    top: 50px;
+    margin-left: 50px;
+   border: solid wheat;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  .button-container {
+    position: fixed;
+    /* padding: 100px; */
+    top: 49%;
+    left: 550px;
+    transform: translate(-50%, -50%);
+  }
+ 
+ 
+  .button-container button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: 300%;
+    background-color: #0a53f1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .Mat-icon{
+    position: relative;
+    color: #0a53f1;
+    font-size: 30px;
+    top: 15px;
+    margin-left: 25px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+  .ai{
+    margin-left: 107px;
+    top: 18px;
+  }
+
+  .font-size{
+    font-size: 20px;
+    font-weight: bold;
+    top: 50px;
+    margin-left: 100px;
+  }
+
+  .font-sizes{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+  }
+

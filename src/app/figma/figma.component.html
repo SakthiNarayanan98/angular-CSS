@@ -1,0 +1,15 @@
+<div>
+    <h1 class="mr"></h1>
+</div>
+
+<div class="flex">
+    <input type="text" id="text" class="di" placeholder="Location">
+    <mat-icon class="Mat-icon">swap_horiz</mat-icon>
+    <input type="text" id="text" class="di" placeholder="Location">
+    <div class="di">
+        <label (click)="togglePassenger()">Passenger: {{getTotalCount()}}</label>
+        <app-passenger *ngIf="showPassenger" (closePassenger)="closePassenger()" ></app-passenger>
+    </div>
+    <input class="di bo " type="text" placeholder="Search..">
+
+</div>
