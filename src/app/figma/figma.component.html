@@ -2,14 +2,18 @@
     <h1 class="mr"></h1>
 </div>
 
-<div class="flex">
+<div class="row" style="justify-content: center;">
     <input type="text" id="text" class="di" placeholder="Location">
-    <mat-icon class="Mat-icon">swap_horiz</mat-icon>
-    <input type="text" id="text" class="di" placeholder="Location">
-    <div class="di">
-        <label (click)="togglePassenger()">Passenger: {{getTotalCount()}}</label>
-        <app-passenger *ngIf="showPassenger" (closePassenger)="closePassenger()" ></app-passenger>
+    <div class="row">
+       
+        <div class="passanger_count center-container small-button">
+            <mat-icon class="Mat-icon" >swap_horiz</mat-icon>
+        </div>
+       
     </div>
-    <input class="di bo " type="text" placeholder="Search..">
+    <input type="text" id="text" class="di" placeholder="Location">
+        <button class="di" (click)="togglePassenger()">Passenger:  {{getTotalCount()}}</button>
+        <app-passenger *ngIf="showPassenger" (closePassenger)="closePassenger()" ></app-passenger>
+    <button class="di bo search-color" style="color: white;" type="button" [ngStyle]="{ 'background-color': getTotalCount() === 0 ? '#ccc': '#0a53f1'}" >Search</button>
 
 </div>

@@ -34,4 +34,9 @@ export class FigmaComponent {
   getTotalCount() {
     return this.passengerService.getTotalCount();
   }
+  disable() {
+    debugger
+    this.getPassengerCount.length == 0 ;
+  }
+
 }

@@ -7,6 +7,8 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root',
 })
 export class PassengerService {
+
+  // private 
   public adultsSubject = new BehaviorSubject<number>(0);
   public childrenSubject = new BehaviorSubject<number>(0);
 
